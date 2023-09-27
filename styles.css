@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Recursive&display=swap");
+
+body {
+  display: flex;
+  padding: 40px 133px;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+  background-color: #232830;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.logo-text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo-text-dev {
+  color: #ff7575;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu {
+  display: flex;
+  width: 294px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+  align-self: stretch;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  color: #ff7575;
+  font-family: Recursive;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.title-desc {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 12px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.line {
+  width: 1176.355px;
+  height: 0px;
+  opacity: 0.2;
+  background: #4d4d4d;
+}
+
+.filter-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+}
+
+.filter-item {
+  color: #909090;
+  font-family: Recursive;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#articles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 32px 24px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.article {
+  display: flex;
+  width: 22%;
+  height: 33%;
+  padding: 20px 20px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 20px;
+  background: #c6c6c6;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.5);
+}
+
+.article-title {
+  color: #0f1217;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  margin: 0;
+  font-weight: 600;
+  line-height: normal;
+  align-self: stretch;
+}
+
+.article-desc {
+  color: #0f1217;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  align-self: stretch;
+}
+
+.article-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.article-info-text {
+  color: #0f1217;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 631px;
+}
+
+.pagination-text {
+  color: #909090;
+  font-family: Recursive;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.active {
+  color: #ff7575;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.author {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
